@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06386C3166F77D100F2C4FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06386C2166F77D100F2C4FD /* UIKit.framework */; };
+		B06386C5166F77D100F2C4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06386C4166F77D100F2C4FD /* Foundation.framework */; };
+		B06386C7166F77D100F2C4FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06386C6166F77D100F2C4FD /* CoreGraphics.framework */; };
+		B06386CD166F77D100F2C4FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B06386CB166F77D100F2C4FD /* InfoPlist.strings */; };
+		B06386CF166F77D100F2C4FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06386CE166F77D100F2C4FD /* main.m */; };
+		B06386D3166F77D100F2C4FD /* peaceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06386D2166F77D100F2C4FD /* peaceAppDelegate.m */; };
+		B06386D5166F77D100F2C4FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B06386D4166F77D100F2C4FD /* Default.png */; };
+		B06386D7166F77D100F2C4FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B06386D6166F77D100F2C4FD /* Default@2x.png */; };
+		B06386D9166F77D100F2C4FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B06386D8166F77D100F2C4FD /* Default-568h@2x.png */; };
+		B06386DC166F77D200F2C4FD /* peaceMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06386DB166F77D200F2C4FD /* peaceMasterViewController.m */; };
+		B06386DF166F77D200F2C4FD /* peaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06386DE166F77D200F2C4FD /* peaceDetailViewController.m */; };
+		B06386E2166F77D200F2C4FD /* peaceMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06386E0166F77D200F2C4FD /* peaceMasterViewController.xib */; };
+		B06386E5166F77D200F2C4FD /* peaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06386E3166F77D200F2C4FD /* peaceDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B06386BE166F77D100F2C4FD /* NaviBarHideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviBarHideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06386C2166F77D100F2C4FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B06386C4166F77D100F2C4FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B06386C6166F77D100F2C4FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B06386CA166F77D100F2C4FD /* NaviBarHideShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NaviBarHideShow-Info.plist"; sourceTree = "<group>"; };
+		B06386CC166F77D100F2C4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B06386CE166F77D100F2C4FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06386D0166F77D100F2C4FD /* NaviBarHideShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NaviBarHideShow-Prefix.pch"; sourceTree = "<group>"; };
+		B06386D1166F77D100F2C4FD /* peaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = peaceAppDelegate.h; sourceTree = "<group>"; };
+		B06386D2166F77D100F2C4FD /* peaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peaceAppDelegate.m; sourceTree = "<group>"; };
+		B06386D4166F77D100F2C4FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B06386D6166F77D100F2C4FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B06386D8166F77D100F2C4FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B06386DA166F77D200F2C4FD /* peaceMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = peaceMasterViewController.h; sourceTree = "<group>"; };
+		B06386DB166F77D200F2C4FD /* peaceMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peaceMasterViewController.m; sourceTree = "<group>"; };
+		B06386DD166F77D200F2C4FD /* peaceDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = peaceDetailViewController.h; sourceTree = "<group>"; };
+		B06386DE166F77D200F2C4FD /* peaceDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peaceDetailViewController.m; sourceTree = "<group>"; };
+		B06386E1166F77D200F2C4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/peaceMasterViewController.xib; sourceTree = "<group>"; };
+		B06386E4166F77D200F2C4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/peaceDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06386BB166F77D000F2C4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06386C3166F77D100F2C4FD /* UIKit.framework in Frameworks */,
+				B06386C5166F77D100F2C4FD /* Foundation.framework in Frameworks */,
+				B06386C7166F77D100F2C4FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06386B3166F77D000F2C4FD = {
+			isa = PBXGroup;
+			children = (
+				B06386C8166F77D100F2C4FD /* NaviBarHideShow */,
+				B06386C1166F77D100F2C4FD /* Frameworks */,
+				B06386BF166F77D100F2C4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B06386BF166F77D100F2C4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06386BE166F77D100F2C4FD /* NaviBarHideShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06386C1166F77D100F2C4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06386C2166F77D100F2C4FD /* UIKit.framework */,
+				B06386C4166F77D100F2C4FD /* Foundation.framework */,
+				B06386C6166F77D100F2C4FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06386C8166F77D100F2C4FD /* NaviBarHideShow */ = {
+			isa = PBXGroup;
+			children = (
+				B06386D1166F77D100F2C4FD /* peaceAppDelegate.h */,
+				B06386D2166F77D100F2C4FD /* peaceAppDelegate.m */,
+				B06386DA166F77D200F2C4FD /* peaceMasterViewController.h */,
+				B06386DB166F77D200F2C4FD /* peaceMasterViewController.m */,
+				B06386DD166F77D200F2C4FD /* peaceDetailViewController.h */,
+				B06386DE166F77D200F2C4FD /* peaceDetailViewController.m */,
+				B06386E0166F77D200F2C4FD /* peaceMasterViewController.xib */,
+				B06386E3166F77D200F2C4FD /* peaceDetailViewController.xib */,
+				B06386C9166F77D100F2C4FD /* Supporting Files */,
+			);
+			path = NaviBarHideShow;
+			sourceTree = "<group>";
+		};
+		B06386C9166F77D100F2C4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B06386CA166F77D100F2C4FD /* NaviBarHideShow-Info.plist */,
+				B06386CB166F77D100F2C4FD /* InfoPlist.strings */,
+				B06386CE166F77D100F2C4FD /* main.m */,
+				B06386D0166F77D100F2C4FD /* NaviBarHideShow-Prefix.pch */,
+				B06386D4166F77D100F2C4FD /* Default.png */,
+				B06386D6166F77D100F2C4FD /* Default@2x.png */,
+				B06386D8166F77D100F2C4FD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06386BD166F77D000F2C4FD /* NaviBarHideShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06386E8166F77D200F2C4FD /* Build configuration list for PBXNativeTarget "NaviBarHideShow" */;
+			buildPhases = (
+				B06386BA166F77D000F2C4FD /* Sources */,
+				B06386BB166F77D000F2C4FD /* Frameworks */,
+				B06386BC166F77D000F2C4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviBarHideShow;
+			productName = NaviBarHideShow;
+			productReference = B06386BE166F77D100F2C4FD /* NaviBarHideShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06386B5166F77D000F2C4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = peace;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = zhaoyp;
+			};
+			buildConfigurationList = B06386B8166F77D000F2C4FD /* Build configuration list for PBXProject "NaviBarHideShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B06386B3166F77D000F2C4FD;
+			productRefGroup = B06386BF166F77D100F2C4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06386BD166F77D000F2C4FD /* NaviBarHideShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06386BC166F77D000F2C4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06386CD166F77D100F2C4FD /* InfoPlist.strings in Resources */,
+				B06386D5166F77D100F2C4FD /* Default.png in Resources */,
+				B06386D7166F77D100F2C4FD /* Default@2x.png in Resources */,
+				B06386D9166F77D100F2C4FD /* Default-568h@2x.png in Resources */,
+				B06386E2166F77D200F2C4FD /* peaceMasterViewController.xib in Resources */,
+				B06386E5166F77D200F2C4FD /* peaceDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06386BA166F77D000F2C4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06386CF166F77D100F2C4FD /* main.m in Sources */,
+				B06386D3166F77D100F2C4FD /* peaceAppDelegate.m in Sources */,
+				B06386DC166F77D200F2C4FD /* peaceMasterViewController.m in Sources */,
+				B06386DF166F77D200F2C4FD /* peaceDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B06386CB166F77D100F2C4FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06386CC166F77D100F2C4FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B06386E0166F77D200F2C4FD /* peaceMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06386E1166F77D200F2C4FD /* en */,
+			);
+			name = peaceMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		B06386E3166F77D200F2C4FD /* peaceDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06386E4166F77D200F2C4FD /* en */,
+			);
+			name = peaceDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B06386E6166F77D200F2C4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B06386E7166F77D200F2C4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06386E9166F77D200F2C4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviBarHideShow/NaviBarHideShow-Prefix.pch";
+				INFOPLIST_FILE = "NaviBarHideShow/NaviBarHideShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B06386EA166F77D200F2C4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviBarHideShow/NaviBarHideShow-Prefix.pch";
+				INFOPLIST_FILE = "NaviBarHideShow/NaviBarHideShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06386B8166F77D000F2C4FD /* Build configuration list for PBXProject "NaviBarHideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06386E6166F77D200F2C4FD /* Debug */,
+				B06386E7166F77D200F2C4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06386E8166F77D200F2C4FD /* Build configuration list for PBXNativeTarget "NaviBarHideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06386E9166F77D200F2C4FD /* Debug */,
+				B06386EA166F77D200F2C4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06386B5166F77D000F2C4FD /* Project object */;
+}
