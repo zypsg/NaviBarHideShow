@@ -1,0 +1,8 @@
+/* 
+  introduction.strings
+  NaviBarHideShow
+
+  Created by zhaoyp on 12/5/12.
+  Copyright (c) 2012 zhaoyp. All rights reserved.
+*/
+这个示例，主要用来研究在一个UINavigationController里，如果有的UIViewController带有UInavigationBar，有的不带有UINavigationBar,通过一些技巧，是可以很平滑的在不同的UIViewController之间切换的。

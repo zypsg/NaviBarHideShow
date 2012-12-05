@@ -7,8 +7,10 @@
 //
 
 #import "peaceDetailViewController.h"
+#import "peaceHideBarViewController.h"
 
 @interface peaceDetailViewController ()
+- (IBAction)showHideVC:(id)sender;
 - (void)configureView;
 @end
 
@@ -21,6 +23,13 @@
     [super dealloc];
 }
 
+
+- (IBAction)showHideVC:(id)sender
+{
+    peaceHideBarViewController* sbvc = [[peaceHideBarViewController alloc] initWithNibName:@"peaceHideBarViewController" bundle:nil];
+    [self.navigationController pushViewController:sbvc animated:YES];
+    [sbvc release];
+}
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem

@@ -20,6 +20,11 @@
 		B06386DF166F77D200F2C4FD /* peaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06386DE166F77D200F2C4FD /* peaceDetailViewController.m */; };
 		B06386E2166F77D200F2C4FD /* peaceMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06386E0166F77D200F2C4FD /* peaceMasterViewController.xib */; };
 		B06386E5166F77D200F2C4FD /* peaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06386E3166F77D200F2C4FD /* peaceDetailViewController.xib */; };
+		B06386EE166F785300F2C4FD /* peaceHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06386EC166F785300F2C4FD /* peaceHideBarViewController.m */; };
+		B06386EF166F785300F2C4FD /* peaceHideBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06386ED166F785300F2C4FD /* peaceHideBarViewController.xib */; };
+		B06386F3166F786700F2C4FD /* peaceShowNavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06386F1166F786700F2C4FD /* peaceShowNavBarViewController.m */; };
+		B06386F4166F786700F2C4FD /* peaceShowNavBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06386F2166F786700F2C4FD /* peaceShowNavBarViewController.xib */; };
+		B06386F6166F7C4800F2C4FD /* introduction.strings in Resources */ = {isa = PBXBuildFile; fileRef = B06386F5166F7C4800F2C4FD /* introduction.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,13 @@
 		B06386DE166F77D200F2C4FD /* peaceDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peaceDetailViewController.m; sourceTree = "<group>"; };
 		B06386E1166F77D200F2C4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/peaceMasterViewController.xib; sourceTree = "<group>"; };
 		B06386E4166F77D200F2C4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/peaceDetailViewController.xib; sourceTree = "<group>"; };
+		B06386EB166F785300F2C4FD /* peaceHideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peaceHideBarViewController.h; sourceTree = "<group>"; };
+		B06386EC166F785300F2C4FD /* peaceHideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = peaceHideBarViewController.m; sourceTree = "<group>"; };
+		B06386ED166F785300F2C4FD /* peaceHideBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = peaceHideBarViewController.xib; sourceTree = "<group>"; };
+		B06386F0166F786700F2C4FD /* peaceShowNavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peaceShowNavBarViewController.h; sourceTree = "<group>"; };
+		B06386F1166F786700F2C4FD /* peaceShowNavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = peaceShowNavBarViewController.m; sourceTree = "<group>"; };
+		B06386F2166F786700F2C4FD /* peaceShowNavBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = peaceShowNavBarViewController.xib; sourceTree = "<group>"; };
+		B06386F5166F7C4800F2C4FD /* introduction.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = introduction.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,13 @@
 				B06386E0166F77D200F2C4FD /* peaceMasterViewController.xib */,
 				B06386E3166F77D200F2C4FD /* peaceDetailViewController.xib */,
 				B06386C9166F77D100F2C4FD /* Supporting Files */,
+				B06386EB166F785300F2C4FD /* peaceHideBarViewController.h */,
+				B06386EC166F785300F2C4FD /* peaceHideBarViewController.m */,
+				B06386ED166F785300F2C4FD /* peaceHideBarViewController.xib */,
+				B06386F0166F786700F2C4FD /* peaceShowNavBarViewController.h */,
+				B06386F1166F786700F2C4FD /* peaceShowNavBarViewController.m */,
+				B06386F2166F786700F2C4FD /* peaceShowNavBarViewController.xib */,
+				B06386F5166F7C4800F2C4FD /* introduction.strings */,
 			);
 			path = NaviBarHideShow;
 			sourceTree = "<group>";
@@ -173,6 +192,9 @@
 				B06386D9166F77D100F2C4FD /* Default-568h@2x.png in Resources */,
 				B06386E2166F77D200F2C4FD /* peaceMasterViewController.xib in Resources */,
 				B06386E5166F77D200F2C4FD /* peaceDetailViewController.xib in Resources */,
+				B06386EF166F785300F2C4FD /* peaceHideBarViewController.xib in Resources */,
+				B06386F4166F786700F2C4FD /* peaceShowNavBarViewController.xib in Resources */,
+				B06386F6166F7C4800F2C4FD /* introduction.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +209,8 @@
 				B06386D3166F77D100F2C4FD /* peaceAppDelegate.m in Sources */,
 				B06386DC166F77D200F2C4FD /* peaceMasterViewController.m in Sources */,
 				B06386DF166F77D200F2C4FD /* peaceDetailViewController.m in Sources */,
+				B06386EE166F785300F2C4FD /* peaceHideBarViewController.m in Sources */,
+				B06386F3166F786700F2C4FD /* peaceShowNavBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
